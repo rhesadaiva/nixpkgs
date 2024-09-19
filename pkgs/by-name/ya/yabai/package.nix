@@ -27,7 +27,7 @@ let
 in
 stdenv'.mkDerivation (finalAttrs: {
   pname = "yabai";
-  version = "7.1.2";
+  version = "7.1.3";
 
   src =
     finalAttrs.passthru.sources.${stdenv.hostPlatform.system}
